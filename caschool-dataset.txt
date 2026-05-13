@@ -1,0 +1,21 @@
+THE CALIFORNIA TEST SCORE DATA SET
+The California Standardized Testing and Reporting (STAR)) dataset contains data on test performance, school characteristics and student demographic backgrounds. The data used here are from all 420 K-6 and K-8 districts in California with data available for 1998 and 1999.  Test scores are the average of the reading and math scores on the Stanford 9 standardized test administered to 5th grade students.  School characteristics (averaged across the district) include enrollment, number of teachers (measured as “full-time-equivalents”), number of computers per classroom, and expenditures per student.  The student-teacher ratio used here is the number of full-time equivalent teachers in the district, divided by the number of students.  Demographic variables for the students also are averaged across the district.  The demographic variables include the percentage of students in the public assistance program CalWorks (formerly AFDC), the percentage of students that qualify for a reduced price lunch, and the percentage of students that are English Learners (that is, students for whom English is a second language).  All of these data were obtained from the California Department of Education (www.cde.ca.gov).
+
+Series in Data Set:
+ DIST_CODE:		DISTRICT CODE;
+ READ_SCR:		AVG READING SCORE;
+ MATH_SCR:		AVG MATH SCORE;
+ COUNTY :		COUNTY;
+ DISTRICT:		DISTRICT;
+ GR_SPAN:		GRADE SPAN OF DISTRICT;
+ ENRL_TOT :		TOTAL ENROLLMENT;
+ TEACHERS:		NUMBER OF TEACHERS;
+ COMPUTER:		NUMBER OF COMPUTERS;
+ TESTSCR:		AVG TEST SCORE (= (READ_SCR+MATH_SCR)/2 );
+ COMP_STU:		COMPUTERS PER STUDENT ( = COMPUTER/ENRL_TOT);
+ EXPN_STU:		EXPENTITURES PER STUDENT ($’S);
+ STR:			STUDENT TEACHER RATIO (ENRL_TOT/TEACHERS);
+ EL_PCT:		PERCENT OF ENGLISH LEARNERS;
+ MEAL_PCT:		PERCENT QUALIFYING FOR REDUCED-PRICE LUNCH;
+ CALW_PCT:		PERCENT QUALIFYING FOR CALWORKS;
+ AVGINC:		DISTRICT AVERAGE INCOME (IN $1000'S);
